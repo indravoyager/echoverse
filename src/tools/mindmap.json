@@ -1,0 +1,17 @@
+{
+  "id": "app_mindmap",
+  "name": "Mind Map",
+  "role": "Mind Map Visualizer",
+  "category": "Tools",
+  "description": "A mathematical auto-layout mind map visualizer. Create conceptual relationship diagrams instantly.",
+  "isApp": true,
+  "appId": "mindmap",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %236366f1, %23ec4899); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M9 12h6'/%3E%3Ccircle cx='5' cy='12' r='4'/%3E%3Cpath d='M19 8v8'/%3E%3Ccircle cx='19' cy='5' r='3'/%3E%3Ccircle cx='19' cy='19' r='3'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#6366f1",
+    "secondary": "#ec4899"
+  },
+  "howToUse": "1. Use indentation (spaces/tabs) to define visual relationships.\n2. Adjust node & line themes.\n3. Drag and zoom the map and export as PNG or SVG.",
+  "features": "• Auto-layout\n• SVG Export\n• Custom Themes\n• Interactive Zoom"
+}

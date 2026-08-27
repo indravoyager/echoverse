@@ -1,0 +1,33 @@
+# Echo ATURAI
+
+> Echo ATURAI is a smart virtual assistant and multi-tool web application providing a wide variety of productivity, utility, and creative tools. All tools are designed to operate safely on-device with a responsive interface.
+
+## Key Modules & Tools
+
+- [Translator](https://echo.aturai.com/translator): Context-aware multilingual translation tool preserving original formatting.
+- [Enhancer](https://echo.aturai.com/enhancer): Grammar and flow editor that refines raw text into professional content.
+- [Prompter](https://echo.aturai.com/prompter): Advanced prompt engineering assistant that optimizes AI prompts.
+- [Tone Shifter](https://echo.aturai.com/tone_shifter): Voice and emotional tone adjustment utility.
+- [Paraphraser](https://echo.aturai.com/paraphraser): Text rewriting utility to simplify or rephrase content.
+- [Brainstormer](https://echo.aturai.com/brainstormer): Creative idea generation and concept mapping assistant.
+- [Copywriter](https://echo.aturai.com/copywriter): Marketing copy generator for ads, posts, and descriptions.
+- [Article Writer](https://echo.aturai.com/articlewriter): Advanced article writer with anti-AI detection cloaking.
+- [Brief Maker](https://echo.aturai.com/briefmaker): Creative brief generator for marketers, agencies, and freelancers.
+- [Exam Builder](https://echo.aturai.com/exam): Interactive practice quiz and PDF exam generator powered by AI.
+- [Flashcard Deck Generator](https://echo.aturai.com/flashcard): Interactive study deck creator from documents.
+- [QR Code Maker](https://echo.aturai.com/qr): Vector QR code generator with logo embedding support.
+- [Image Compressor](https://echo.aturai.com/compressor): On-device image compression and optimization tool.
+- [Format Converter](https://echo.aturai.com/converter): Batch image format converter and PDF page extractor.
+- [Background Remover](https://echo.aturai.com/bgremover): Smart AI subject isolation and background removal utility.
+- [PDF Studio](https://echo.aturai.com/pdfstudio): PDF merger and splitter utility.
+- [PDF Compressor](https://echo.aturai.com/pdfcompressor): On-device PDF size compression utility.
+- [OCR Reader](https://echo.aturai.com/ocr): On-device optical character recognition for image-to-text extraction.
+- [Code Visualizer](https://echo.aturai.com/codesnippet): Code snippet visualizer and shareable screenshot creator.
+- [Invoice Maker](https://echo.aturai.com/invoicemaker): Professional invoice creation tool with A4 preview and QR payment.
+- [Data Visualizer](https://echo.aturai.com/datavisualizer): Chart and graph summary generator from raw tabular data.
+- [Mind Map](https://echo.aturai.com/mindmap): Mathematical auto-layout mind map visualizer.
+
+## Sitemap & Accessibility
+
+- [Sitemap](https://echo.aturai.com/sitemap.xml): Complete XML sitemap of all public routes and features.
+- [Robots Policy](https://echo.aturai.com/robots.txt): Accessibility rules and indexing guidelines for web agents.

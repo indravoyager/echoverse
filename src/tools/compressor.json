@@ -1,0 +1,17 @@
+{
+  "id": "app_compressor",
+  "name": "Image Compressor",
+  "role": "Image Size Optimization",
+  "category": "Tools",
+  "description": "High-efficiency image compression tool. Reduces image file sizes while preserving visual quality.",
+  "isApp": true,
+  "appId": "compressor",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2310b981, %23059669); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3'/%3E%3Cpath d='M21 8V5a2 2 0 0 0-2-2h-3'/%3E%3Cpath d='M3 16v3a2 2 0 0 0 2 2h3'/%3E%3Cpath d='M16 21h3a2 2 0 0 0 2-2v-3'/%3E%3Crect x='8' y='8' width='8' height='8' rx='1'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#10b981",
+    "secondary": "#059669"
+  },
+  "howToUse": "1. Drop or upload the image you want to compress.\n2. Adjust the 'Quality' and 'Image Size' sliders.\n3. View the real-time 'Savings Report'.\n4. Click 'Download Output' to save the optimized image.",
+  "features": "• Efficient Processing\n• Adjustable Quality\n• Real-time Preview"
+}

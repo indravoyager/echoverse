@@ -1,0 +1,19 @@
+{
+  "id": "app_briefmaker",
+  "name": "Brief Maker",
+  "role": "Creative Brief Generator",
+  "category": "Tools",
+  "description": "Creative Brief Generator for agencies, marketers, and freelancers.",
+  "isApp": true,
+  "appId": "briefmaker",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23f59e0b, %23d97706); padding: 10px; border-radius: 50%25;'%3E%3Crect width='20' height='14' x='2' y='7' rx='2' ry='2'/%3E%3Cpath d='M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#f59e0b",
+    "secondary": "#d97706",
+    "accent": "#fef3c7",
+    "background": "#ffffff"
+  },
+  "howToUse": "1. Enter your raw project idea or concept.\n2. Select the Project Type (e.g., Marketing, Logo/Branding).\n3. Choose the Brand Vibe and Target Audience.\n4. Pick your desired output format.\n5. Click 'Generate Brief'.",
+  "features": "• Structured Briefs\n• Format Options\n• Tailored Tone & Audience"
+}

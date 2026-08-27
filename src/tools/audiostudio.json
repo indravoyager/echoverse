@@ -1,0 +1,17 @@
+{
+  "id": "app_audiostudio",
+  "name": "Audio Trim & Cut",
+  "role": "Audio Trimmer & Formats",
+  "category": "Tools",
+  "description": "Audio Trimmer & Format Converter with an interactive visual waveform.",
+  "isApp": true,
+  "appId": "audiostudio",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23f59e0b, %23d97706); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M12 2v20'/%3E%3Cpath d='M17 5v14'/%3E%3Cpath d='M22 10v4'/%3E%3Cpath d='M7 5v14'/%3E%3Cpath d='M2 10v4'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#f59e0b",
+    "secondary": "#d97706"
+  },
+  "howToUse": "1. Drop your audio file into the workspace.\n2. Drag the edges of the highlighted region on the waveform to trim.\n3. Select your Target Format.\n4. Click 'EXPORT' to process and download.",
+  "features": "• Interactive Waveform\n• MP3 & WAV Export\n• Seamless Export"
+}

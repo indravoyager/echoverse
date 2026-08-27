@@ -1,0 +1,17 @@
+{
+  "id": "app_tone_shifter",
+  "name": "Tone Shifter",
+  "role": "Voice & Tone Adjustment",
+  "category": "Tools",
+  "description": "Tone adjustment utility. Modifies the emotional tone of your message without changing the core meaning.",
+  "isApp": true,
+  "appId": "tone_shifter",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23a855f7, %23ec4899); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M2 10s3-3 10-3 10 3 10 3M2 14s3-3 10-3 10 3 10 3M2 18s3-3 10-3 10 3 10 3'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#a855f7",
+    "secondary": "#ec4899"
+  },
+  "howToUse": "1. Paste your original text.\n2. Select the target tone from the menu.\n3. Click 'Shift Tone'.\n4. Review the rephrased sentences adjusted for your chosen situation.",
+  "features": "• Nuance Adjustment\n• Meaning Preservation\n• Context Awareness"
+}

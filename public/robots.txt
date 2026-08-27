@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Directories to ignore
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://echo.aturai.com/sitemap.xml

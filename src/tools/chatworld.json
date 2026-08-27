@@ -1,0 +1,18 @@
+{
+  "id": "app_chatworld",
+  "name": "Chat World",
+  "role": "Chat World",
+  "category": "Tools",
+  "description": "Connect with multiple AI personas in a shared simulation space to explore dynamic group chats.",
+  "isApp": true,
+  "appId": "chatworld",
+  "isHidden": true,
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %230ea5e9, %230284c7); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#0ea5e9",
+    "secondary": "#0284c7"
+  },
+  "howToUse": "1. Join or configure simulated rooms.\n2. Start messages and observe how different personas interact with each other.",
+  "features": "• Multi-persona Group Simulation\n• Real-time Interactions"
+}

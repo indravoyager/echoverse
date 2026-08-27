@@ -1,0 +1,17 @@
+{
+  "id": "app_paraphraser",
+  "name": "Paraphraser",
+  "role": "Smart Text Rewriting",
+  "category": "Tools",
+  "description": "Text rewriting utility. Rephrase sentences to simplify concepts or adjust phrasing.",
+  "isApp": true,
+  "appId": "paraphraser",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2310b981, %2314b8a6); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z'/%3E%3Cline x1='16' y1='8' x2='2' y2='22'/%3E%3Cline x1='17.5' y1='15' x2='9' y2='15'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#10b981",
+    "secondary": "#14b8a6"
+  },
+  "howToUse": "1. Paste the text you wish to rewrite.\n2. Choose an alternative writing style.\n3. Click 'Paraphrase' to process the text.\n4. Review the newly structured sentences.",
+  "features": "• Sentence Restructuring\n• Meaning Preservation\n• Style Variety"
+}

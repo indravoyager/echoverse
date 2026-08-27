@@ -1,0 +1,17 @@
+{
+  "id": "app_colorblindness",
+  "name": "Color Blind Simulator",
+  "role": "Colorblindness Simulator",
+  "category": "Tools",
+  "description": "Simulate visual constraints of different colorblindness types on loaded images.",
+  "isApp": true,
+  "appId": "colorblindness",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23eab308, %23ca8a04); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#eab308",
+    "secondary": "#a16207"
+  },
+  "howToUse": "1. Drop your image.\n2. Toggle different colorblindness filter presets.\n3. Save simulated output.",
+  "features": "• Realtime Canvas simulation\n• Preset filters"
+}

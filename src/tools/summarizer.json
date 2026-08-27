@@ -1,0 +1,17 @@
+{
+  "id": "app_summarizer",
+  "name": "Summarizer",
+  "role": "Meeting Minutes & Summaries",
+  "category": "Tools",
+  "description": "Summarizer tool. Convert raw meeting notes or transcripts into clean, organized minutes and action items.",
+  "isApp": true,
+  "appId": "summarizer",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2310b981, %23059669); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3Cpolyline points='10 9 9 9 8 9'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#10b981",
+    "secondary": "#059669"
+  },
+  "howToUse": "1. Paste your raw meeting notes or transcript.\n2. Select your desired Summary Format (e.g., Action Items, Full Minutes).\n3. Click 'SUMMARIZE'.\n4. Copy the structured results.",
+  "features": "• Auto-extract action items\n• Multiple languages\n• Structure conversion"
+}

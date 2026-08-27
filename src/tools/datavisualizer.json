@@ -1,0 +1,17 @@
+{
+  "id": "app_datavisualizer",
+  "name": "Data Visualizer",
+  "role": "Data Visualizer",
+  "category": "Tools",
+  "description": "Generate beautiful charts, plots, and visual summaries from tabular raw data.",
+  "isApp": true,
+  "appId": "datavisualizer",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2310b981, %23059669); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M3 3v18h18'/%3E%3Cpath d='M18 17V9'/%3E%3Cpath d='M13 17V5'/%3E%3Cpath d='M8 17v-3'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#10b981",
+    "secondary": "#059669"
+  },
+  "howToUse": "1. Input or paste your CSV/JSON formatted data.\n2. Select the chart type (Bar, Line, Pie, Scatter).\n3. Adjust color parameters and styling.\n4. Download as high quality image.",
+  "features": "• Diverse Charts\n• Responsive Previews\n• High Quality Export"
+}

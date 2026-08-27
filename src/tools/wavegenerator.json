@@ -1,0 +1,17 @@
+{
+  "id": "app_wavegenerator",
+  "name": "Wave Generator",
+  "role": "Wave Generator",
+  "category": "Tools",
+  "description": "Generate clean decorative SVG wave graphics for backgrounds and website sections.",
+  "isApp": true,
+  "appId": "wavegenerator",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2314b8a6, %2306b6d4); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M2 12c3 0 3-4 6-4s3 4 6 4 3-4 6-4 3 4 6 4v10H2V12z' fill='white' stroke='none' opacity='0.3'/%3E%3Cpath d='M2 15c3 0 3-4 6-4s3 4 6 4 3-4 6-4 3 4 6 4v7H2v-7z' fill='white' stroke='none' opacity='0.6'/%3E%3Cpath d='M2 18c3 0 3-4 6-4s3 4 6 4 3-4 6-4 3 4 6 4v4H2v-4z' fill='white' stroke='none'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#14b8a6",
+    "secondary": "#06b6d4"
+  },
+  "howToUse": "1. Customize curve heights and layer colors.\n2. Export clean optimized SVG.",
+  "features": "• Multi-layer waves\n• Real-time updates"
+}

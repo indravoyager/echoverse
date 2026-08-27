@@ -1,0 +1,17 @@
+{
+  "id": "app_translator",
+  "name": "Translator",
+  "role": "Multilingual Translation",
+  "category": "Tools",
+  "description": "A premium multilingual translation tool that preserves formatting and adapts to your desired tone.",
+  "isApp": true,
+  "appId": "translator",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %233b82f6, %238b5cf6); padding: 10px; border-radius: 50%;'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3Cpath d='M2 12h20'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#3b82f6",
+    "secondary": "#8b5cf6"
+  },
+  "howToUse": "1. Paste the text or document you want to translate into the main input field.\n2. Select your desired target language from the dropdown menu.\n3. Adjust the 'Tone' (e.g., Formal, Casual, Academic) to ensure the translation sounds natural.\n4. Click 'Translate' and let the AI process it while preserving your original formatting.\n5. Use the 'Copy' button to quickly grab the result.",
+  "features": "• Context-aware Translation\n• Tone Matching\n• Multi-language"
+}

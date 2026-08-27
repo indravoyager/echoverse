@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/chat_icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Echoverse - Productivity Tools & Virtual Assistant</title>
+    <meta name="title" content="Echoverse - Productivity Tools & Virtual Assistant" />
+    <meta name="description" content="Echoverse is a smart virtual assistant and productivity tools provider to enhance your workflow. From interactive chats, translators, to advanced prompt makers, everything is here." />
+    <meta name="keywords" content="virtual assistant, productivity, Echoverse, translator, prompt maker, tools" />
+    <meta name="author" content="Echoverse" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://echo.aturai.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://echo.aturai.com/" />
+    <meta property="og:title" content="Echoverse - Productivity Tools & Virtual Assistant" />
+    <meta property="og:description" content="Echoverse is a smart virtual assistant and productivity tools provider to enhance your workflow. From interactive chats, translators, to advanced prompt makers, everything is here." />
+    <meta property="og:image" content="https://echo.aturai.com/chat_icon.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://echo.aturai.com/" />
+    <meta property="twitter:title" content="Echoverse - Productivity Tools & Virtual Assistant" />
+    <meta property="twitter:description" content="Echoverse is a smart virtual assistant and productivity tools provider to enhance your workflow. From interactive chats, translators, to advanced prompt makers, everything is here." />
+    <meta property="twitter:image" content="https://echo.aturai.com/chat_icon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;700;900&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <style>
+      html.dark {
+        background-color: #0a0a0a !important;
+      }
+      html:not(.dark) {
+        background-color: #f8fafc !important;
+      }
+    </style>
+    <script>
+      (function() {
+        try {
+          const testKey = '__storage_test__';
+          window.localStorage.setItem(testKey, testKey);
+          window.localStorage.removeItem(testKey);
+        } catch (e) {
+          console.warn("Storage access restricted. Implementing safe fallback.", e);
+          let inMemoryStorage = {};
+          const mockStorage = {
+            getItem: function(key) { return key in inMemoryStorage ? inMemoryStorage[key] : null; },
+            setItem: function(key, value) { inMemoryStorage[key] = String(value); },
+            removeItem: function(key) { delete inMemoryStorage[key]; },
+            clear: function() { inMemoryStorage = {}; },
+            key: function(i) { return Object.keys(inMemoryStorage)[i] || null; },
+            get length() { return Object.keys(inMemoryStorage).length; }
+          };
+          try {
+            Object.defineProperty(window, 'localStorage', {
+              value: mockStorage,
+              configurable: true,
+              enumerable: true,
+              writable: true
+            });
+            Object.defineProperty(window, 'sessionStorage', {
+              value: mockStorage,
+              configurable: true,
+              enumerable: true,
+              writable: true
+            });
+          } catch (defineError) {
+            if (typeof Storage !== 'undefined') {
+              try {
+                const origGetItem = Storage.prototype.getItem;
+                const origSetItem = Storage.prototype.setItem;
+                const origRemoveItem = Storage.prototype.removeItem;
+                const origClear = Storage.prototype.clear;
+
+                Storage.prototype.getItem = function(key) {
+                  try { return origGetItem.call(this, key); } catch (err) { return key in inMemoryStorage ? inMemoryStorage[key] : null; }
+                };
+                Storage.prototype.setItem = function(key, value) {
+                  try { origSetItem.call(this, key, value); } catch (err) { inMemoryStorage[key] = String(value); }
+                };
+                Storage.prototype.removeItem = function(key) {
+                  try { origRemoveItem.call(this, key); } catch (err) { delete inMemoryStorage[key]; }
+                };
+                Storage.prototype.clear = function() {
+                  try { origClear.call(this); } catch (err) { inMemoryStorage = {}; }
+                };
+              } catch (protoError) {
+                console.error("Could not patch Storage prototype:", protoError);
+              }
+            }
+          }
+        }
+      })();
+    </script>
+    <script>
+      (function() {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-[#0a0a0a]">
+    <script>
+      const isDev = window.location.hostname === 'localhost' || 
+                    window.location.hostname === '127.0.0.1' || 
+                    localStorage.getItem('debug') === 'true';
+
+      window.addEventListener('error', function(e) {
+        console.error('Captured Global Error:', e);
+        if (isDev) {
+          document.body.innerHTML += '<div style="position:fixed;top:0;left:0;right:0;background:red;color:white;z-index:99999;padding:20px;font-family:monospace;white-space:pre-wrap;">' + e.message + '\n' + e.filename + ':' + e.lineno + '\n' + (e.error && e.error.stack ? e.error.stack : '') + '</div>';
+        }
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('Captured Unhandled Rejection:', e);
+        if (isDev) {
+          document.body.innerHTML += '<div style="position:fixed;top:0;left:0;right:0;background:red;color:white;z-index:99999;padding:20px;font-family:monospace;white-space:pre-wrap;">Unhandled Promise Rejection: ' + (e.reason && e.reason.stack ? e.reason.stack : e.reason) + '</div>';
+        }
+      });
+    </script>
+    <div id="root">
+      <style>
+        .initial-loader { position: fixed; inset: 0; display: flex; justify-content: center; align-items: center; background-color: #f8fafc; z-index: 9999; }
+        html.dark .initial-loader { background-color: #0a0a0a; }
+        .spinner { width: 40px; height: 40px; border: 4px solid rgba(0,0,0,0.05); border-radius: 50%; border-top-color: #3b82f6; animation: spin 1s ease-in-out infinite; }
+        html.dark .spinner { border: 4px solid rgba(255,255,255,0.05); border-top-color: #3b82f6; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+      </style>
+      <div class="initial-loader">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

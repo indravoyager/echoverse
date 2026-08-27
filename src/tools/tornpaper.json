@@ -1,0 +1,17 @@
+{
+  "id": "app_tornpaper",
+  "name": "Torn Paper",
+  "role": "Torn Paper Effect",
+  "category": "Tools",
+  "description": "Add beautiful decorative torn paper edges and textures to mockups and images.",
+  "isApp": true,
+  "appId": "tornpaper",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23eab308, %23ef4444); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8l-6 6v12a2 2 0 0 0 2 2z'/%3E%3Cpath d='M14 2v4a2 2 0 0 0 2 2h4'/%3E%3Cpath d='M10 12l2 2 2-2'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#eab308",
+    "secondary": "#ef4444"
+  },
+  "howToUse": "1. Upload image.\n2. Choose border tearing styles.\n3. Download stylized results.",
+  "features": "• Custom border path generation\n• Canvas renders"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "app_memphis",
+  "name": "Memphis Generator",
+  "role": "Memphis Pattern Gen",
+  "category": "Tools",
+  "description": "Generate playful stylized retro 80s/90s Memphis pattern backgrounds.",
+  "isApp": true,
+  "appId": "memphis",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23f43f5e, %233b82f6); padding: 10px; border-radius: 50%;'%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M4 4l4 4'/%3E%3Cpath d='M20 4l-4 4'/%3E%3Cpath d='M4 20l4-4'/%3E%3Cpath d='M20 20l-4-4'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#f43f5e",
+    "secondary": "#3b82f6"
+  },
+  "howToUse": "1. Adjust color palettes and shape counts.\n2. Download SVG vectors.",
+  "features": "• Retro styling options\n• Scale-independent export"
+}

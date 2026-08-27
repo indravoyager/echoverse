@@ -1,0 +1,17 @@
+{
+  "id": "app_converter",
+  "name": "PDF & Image Converter",
+  "role": "Batch Format Conversion",
+  "category": "Tools",
+  "description": "Batch file format converter. Convert images or extract PDF pages to image formats.",
+  "isApp": true,
+  "appId": "converter",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %236366f1, %234f46e5); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M21 2v6h-6'/%3E%3Cpath d='M3 12a9 9 0 0 1 15-6.7L21 8'/%3E%3Cpath d='M3 22v-6h6'/%3E%3Cpath d='M21 12a9 9 0 0 1-15 6.7L3 16'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#6366f1",
+    "secondary": "#4f46e5"
+  },
+  "howToUse": "1. Drop thousands of images or PDFs into the upload zone.\n2. Select your desired Target Format.\n3. Adjust the Quality and Scale sliders.\n4. Click 'Start Conversion'.\n5. Download all converted files bundled in a ZIP file.",
+  "features": "• Bulk Processing\n• PDF to Image Extraction\n• Auto-ZIP Bundling"
+}

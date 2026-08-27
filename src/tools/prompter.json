@@ -1,0 +1,17 @@
+{
+  "id": "app_prompter",
+  "name": "Prompt Architect",
+  "role": "Advanced Prompt Engineering",
+  "category": "Tools",
+  "description": "Prompt optimization assistant. Transforms basic instructions into structured prompts.",
+  "isApp": true,
+  "appId": "prompter",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23a855f7, %239333ea); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#a855f7",
+    "secondary": "#9333ea"
+  },
+  "howToUse": "1. Write down your rough idea or basic instruction.\n2. Click 'Optimize Prompt'.\n3. Review the reconstructed, highly detailed prompt.\n4. Copy and use the prompt in any major language model.",
+  "features": "• Prompt Engineering\n• Context Enrichment\n• Output Formatting"
+}

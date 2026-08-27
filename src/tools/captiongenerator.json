@@ -1,0 +1,17 @@
+{
+  "id": "app_captiongenerator",
+  "name": "Caption & Hashtag Gen",
+  "role": "Social Media Captions",
+  "category": "Tools",
+  "description": "Generate engaging and viral captions for Instagram, TikTok, LinkedIn, and Twitter.",
+  "isApp": true,
+  "appId": "captiongenerator",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23f59e0b, %23ec4899, %238b5cf6); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z'/%3E%3Ccircle cx='12' cy='13' r='4'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#ec4899",
+    "secondary": "#8b5cf6"
+  },
+  "howToUse": "1. Enter key topics.\n2. Pick platform and emotional tone.\n3. Click generate for curated caption lists.",
+  "features": "• Multi-platform optimization\n• Emoji inclusion"
+}

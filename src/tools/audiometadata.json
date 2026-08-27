@@ -1,0 +1,17 @@
+{
+  "id": "app_audiometadata",
+  "name": "Audio Metadata",
+  "role": "Audio Metadata Editor",
+  "category": "Tools",
+  "description": "Read and edit ID3 metadata tags of audio files directly in the browser.",
+  "isApp": true,
+  "appId": "audiometadata",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2314b8a6, %230f766e); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M9 18V5l12-2v13'/%3E%3Ccircle cx='6' cy='18' r='3'/%3E%3Ccircle cx='18' cy='16' r='3'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#0f766e",
+    "secondary": "#0d9488"
+  },
+  "howToUse": "1. Upload audio file.\n2. Edit title, artist, album, and artwork metadata fields.\n3. Save and download updated file.",
+  "features": "• On-device updates\n• ID3 compatibility"
+}

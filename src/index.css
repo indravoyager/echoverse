@@ -1,0 +1,417 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-jakarta: "Inter", sans-serif;
+
+  --color-brand-magenta: #bc13fe;
+  --color-brand-purple: #00d4ff;
+  --color-bg-light: #f8f9fe;
+}
+
+/* Cyrene selection color — matches AturAI blue-purple */
+::selection {
+  background-color: rgba(88, 86, 214, 0.85);
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: rgba(88, 86, 214, 0.85);
+  color: #ffffff;
+}
+.dark ::selection {
+  background-color: rgba(107, 99, 246, 0.8);
+  color: #ffffff;
+}
+.dark ::-moz-selection {
+  background-color: rgba(107, 99, 246, 0.8);
+  color: #ffffff;
+}
+
+html {
+  font-size: 110%;
+}
+
+html, body {
+  background-color: var(--color-bg-light);
+  color: #0f172a;
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  inset: 0;
+  font-family: var(--font-sans);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* Search highlight — like browser Ctrl+F, no padding to preserve text layout */
+mark.search-highlight {
+  background: #fde047;
+  color: #1e293b;
+  border-radius: 2px;
+}
+.dark mark.search-highlight {
+  background: #a16207;
+  color: #fff;
+}
+
+.dark body {
+  background-color: #030303;
+  color: #ffffff;
+}
+
+/* Global Custom Scrollbar (Firefox) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(15, 23, 42, 0.12) transparent;
+}
+
+.dark * {
+  scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+}
+
+/* Custom scrollbar for webkit — global (subtle) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.06);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.13);
+  border-radius: 99px;
+  border: 1.5px solid transparent;
+  background-clip: padding-box;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.13);
+  border: 1.5px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 23, 42, 0.28);
+  background-clip: padding-box;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.28);
+  background-clip: padding-box;
+}
+
+/* Ensure textareas always use the custom scrollbar */
+textarea::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* -------------------------------------------------------
+   .custom-scrollbar — Premium pill thumb (subtle gray)
+   Used in tool sidebars, card lists, dropdowns, etc.
+------------------------------------------------------- */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(15, 23, 42, 0.2) rgba(15, 23, 42, 0.06);
+}
+.dark .custom-scrollbar {
+  scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.04);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.06);
+  border-radius: 99px;
+}
+.dark .custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.2);
+  border-radius: 99px;
+  border: 1.5px solid transparent;
+  background-clip: padding-box;
+  transition: background 0.2s;
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  background-clip: padding-box;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 23, 42, 0.38);
+  background-clip: padding-box;
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.38);
+  background-clip: padding-box;
+}
+
+/* Code block custom scrollbar */
+.code-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.code-scroll::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.05);
+  border-radius: 99px;
+}
+.code-scroll::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.2);
+  border-radius: 99px;
+}
+.dark .code-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+.code-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 23, 42, 0.4);
+}
+.dark .code-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* E:\aturai Tech Backgrounds - Dual Theme */
+.tech-grid {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 40 0 L 0 0 0 40' fill='none' stroke='rgba(0,0,0,0.04)' stroke-width='1'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.dark .tech-grid {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 40 0 L 0 0 0 40' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+
+/* Welcome Modal — Cyrene-themed nebula (pink #ec4899, purple #8b5cf6) */
+@keyframes wFloatNebula1 {
+  0%   { transform: translate3d(0, 0, 0); }
+  25%  { transform: translate3d(20vw, 20vh, 0); }
+  50%  { transform: translate3d(45vw, 40vh, 0); }
+  75%  { transform: translate3d(20vw, 20vh, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes wFloatNebula2 {
+  0%   { transform: translate3d(0, 0, 0); }
+  25%  { transform: translate3d(-20vw, -20vh, 0); }
+  50%  { transform: translate3d(-45vw, -40vh, 0); }
+  75%  { transform: translate3d(-20vw, -20vh, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.welcome-nebula-1 {
+  position: absolute;
+  left: -20vw;
+  top: -20vh;
+  width: 100vw;
+  height: 100vw;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.18) 0%, rgba(139, 92, 246, 0.08) 50%, transparent 70%);
+  animation: wFloatNebula1 35s ease-in-out infinite alternate;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
+}
+
+.welcome-nebula-2 {
+  position: absolute;
+  right: -20vw;
+  bottom: -20vh;
+  width: 120vw;
+  height: 120vw;
+  background: radial-gradient(circle, rgba(0, 212, 255, 0.14) 0%, rgba(139, 92, 246, 0.10) 40%, transparent 65%);
+  animation: wFloatNebula2 32s ease-in-out infinite alternate;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
+}
+
+.welcome-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(236, 72, 153, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(236, 72, 153, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tech-glow {
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 600px;
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--color-brand-magenta) 15%, transparent) 0%, color-mix(in srgb, var(--color-brand-purple) 8%, transparent) 40%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .tech-glow {
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--color-brand-magenta) 8%, transparent) 0%, color-mix(in srgb, var(--color-brand-purple) 3%, transparent) 40%, transparent 70%);
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.ambient-nebula-1 {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-brand-magenta) 12%, transparent) 0%, transparent 65%);
+  filter: blur(150px);
+  animation: wFloatNebula1 35s ease-in-out infinite alternate;
+  z-index: 0;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.dark .ambient-nebula-1 {
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-brand-magenta) 8%, transparent) 0%, transparent 65%);
+}
+
+.ambient-nebula-2 {
+  position: absolute;
+  width: 120vw;
+  height: 120vw;
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-brand-purple) 12%, transparent) 0%, color-mix(in srgb, var(--color-brand-magenta) 8%, transparent) 40%, transparent 65%);
+  filter: blur(150px);
+  animation: wFloatNebula2 32s ease-in-out infinite alternate;
+  z-index: 0;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.dark .ambient-nebula-2 {
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-brand-purple) 6%, transparent) 0%, color-mix(in srgb, var(--color-brand-magenta) 3%, transparent) 40%, transparent 65%);
+}
+
+/* Checkerboard Background for Image Previews */
+.checkerboard-bg {
+  background-color: #f1f5f9; /* slate-100 */
+  background-image: 
+    linear-gradient(45deg, rgba(0,0,0,0.04) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(0,0,0,0.04) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.04) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.04) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+/* Note Studio Print Styles */
+@media print {
+  body, html {
+    background: white !important;
+    color: black !important;
+    height: auto !important;
+    width: auto !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+  .dark body, .dark html {
+    background: white !important;
+    color: black !important;
+  }
+  .print-hide {
+    display: none !important;
+  }
+  .print-force-block {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+  .print-container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+  .prose * {
+    color: black !important;
+  }
+  .prose pre * {
+    color: inherit !important;
+  }
+  pre, blockquote, table, img, tr, li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+}
+
+.dark .checkerboard-bg {
+  background-color: #0f0f0f;
+  background-image: 
+    linear-gradient(45deg, rgba(255,255,255,0.03) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(255,255,255,0.03) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.03) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.03) 75%);
+}
+
+/* Theme Reveal View Transition */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+  will-change: clip-path, transform, opacity;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 2;
+}
+
+/* Performance & Layout Containment Utilities for App Switching */
+.app-container-hidden {
+  content-visibility: hidden;
+  contain: strict;
+  pointer-events: none !important;
+}
+
+.app-container-active {
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px 800px;
+}
+

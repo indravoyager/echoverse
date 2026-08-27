@@ -1,0 +1,17 @@
+{
+  "id": "app_imagecropper",
+  "name": "Image Cropper",
+  "role": "Image Cropping & Resizing",
+  "category": "Tools",
+  "description": "A precise image cropping and resizing utility.",
+  "isApp": true,
+  "appId": "imagecropper",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23f97316, %23ea580c); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M6 2v14a2 2 0 0 0 2 2h14'/%3E%3Cpath d='M18 22V8a2 2 0 0 0-2-2H2'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#f97316",
+    "secondary": "#ea580c"
+  },
+  "howToUse": "1. Upload the image you want to crop.\n2. Select a preset aspect ratio or drag the corners to crop freely.\n3. Double-click the crop area to quickly download the cropped image.\n4. Download your cropped image instantly.",
+  "features": "• Aspect Ratio Presets\n• Double-click to Save\n• Fast Execution"
+}

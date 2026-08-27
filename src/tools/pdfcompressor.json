@@ -1,0 +1,17 @@
+{
+  "id": "app_pdfcompressor",
+  "name": "PDF Compressor",
+  "role": "Lossless PDF Compression",
+  "category": "Tools",
+  "description": "WASM-powered PDF Compressor. Shrinks PDF file sizes by optimizing internal images without rasterizing the document.",
+  "isApp": true,
+  "appId": "pdfcompressor",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23e11d48, %23be123c); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cpath d='M12 18v-6'/%3E%3Cpath d='M9 15l3 3 3-3'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#e11d48",
+    "secondary": "#be123c"
+  },
+  "howToUse": "1. Drop your PDF file into the workspace.\n2. Select your compression preset (Lossless, Balanced, Max).\n3. Wait for the processing to complete.\n4. Download the optimized PDF.",
+  "features": "• No Rasterization\n• Text Remains Selectable\n• On-Device Processing"
+}

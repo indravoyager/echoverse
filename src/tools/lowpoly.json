@@ -1,0 +1,17 @@
+{
+  "id": "app_lowpoly",
+  "name": "Low Poly",
+  "role": "Low Poly Generator",
+  "category": "Tools",
+  "description": "Convert standard images to stylized geometric low-poly vector assets.",
+  "isApp": true,
+  "appId": "lowpoly",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %236366f1, %2314b8a6); padding: 10px; border-radius: 50%;'%3E%3Cpolygon points='12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2' /%3E%3Cline x1='12' y1='22' x2='12' y2='15.5' /%3E%3Cline x1='22' y1='8.5' x2='15' y2='12' /%3E%3Cline x1='2' y1='8.5' x2='9' y2='12' /%3E%3Cline x1='12' y1='2' x2='12' y2='9' /%3E%3Cline x1='9' y1='12' x2='15' y2='12' /%3E%3Cline x1='12' y1='15.5' x2='9' y2='12' /%3E%3Cline x1='12' y1='15.5' x2='15' y2='12' /%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#6366f1",
+    "secondary": "#14b8a6"
+  },
+  "howToUse": "1. Upload image.\n2. Adjust mesh detail density and threshold parameters.\n3. Click process to build stylized low poly shapes.",
+  "features": "• Detailed triangulation mesh\n• Scale controls"
+}

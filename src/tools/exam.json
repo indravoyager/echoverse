@@ -1,0 +1,17 @@
+{
+  "id": "app_exam",
+  "name": "Exam Simulator",
+  "role": "Interactive Practice Quiz",
+  "category": "Tools",
+  "description": "An intelligent practice quiz generator powered by AI. Upload any study material to instantly test your knowledge.",
+  "isApp": true,
+  "appId": "exam",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %233b82f6, %230ea5e9); padding: 10px; border-radius: 50%;'%3E%3Cpath d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'/%3E%3Cpath d='M9 10h6'/%3E%3Cpath d='M9 14h6'/%3E%3Cpath d='M9 6h6'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#3b82f6",
+    "secondary": "#0ea5e9"
+  },
+  "howToUse": "1. Prepare your study material (PDF file or plain text).\n2. Drag & drop the file into the upload zone, or paste text manually.\n3. (Optional) Set a 'Topic Focus' to restrict questions to specific chapters.\n4. Select the number of questions (5-20).\n5. Click 'Generate Quiz' and wait for the AI to build your test.\n6. Answer the questions, click 'Next Question', and review your final score and detailed explanations.",
+  "features": "• PDF Parsing\n• Dynamic Scoring\n• AI Explanations\n• Auto-Save State"
+}

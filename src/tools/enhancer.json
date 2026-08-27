@@ -1,0 +1,17 @@
+{
+  "id": "app_enhancer",
+  "name": "Text Enhancer",
+  "role": "Grammar & Flow Editor",
+  "category": "Tools",
+  "description": "Grammar and flow editor. Refines raw text into clear, professional content.",
+  "isApp": true,
+  "appId": "enhancer",
+  "isOnDevice": false,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %2310b981, %23059669); padding: 10px; border-radius: 50%;'%3E%3Cpath d='m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z'/%3E%3Cpath d='M5 3v4M3 5h4'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#10b981",
+    "secondary": "#059669"
+  },
+  "howToUse": "1. Paste your draft into the input field.\n2. Click 'Enhance' to process the text.\n3. The assistant will restructure sentences, fix grammar, and improve readability.\n4. Copy the final polished version for your use.",
+  "features": "• Grammar Correction\n• Flow Optimization\n• Vocabulary Boost"
+}

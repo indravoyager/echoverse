@@ -1,0 +1,17 @@
+{
+  "id": "app_htmlreview",
+  "name": "HTML Review",
+  "role": "HTML Reviewer",
+  "category": "Tools",
+  "description": "Live interactive sandbox for viewing, testing, and reviewing HTML, CSS, and JS snippets.",
+  "isApp": true,
+  "appId": "htmlreview",
+  "isOnDevice": true,
+  "avatar": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background: linear-gradient(135deg, %23e44d26, %23f06529); padding: 10px; border-radius: 50%;'%3E%3Cpolyline points='16 18 22 12 16 6'/%3E%3Cpolyline points='8 6 2 12 8 18'/%3E%3C/svg%3E",
+  "theme": {
+    "primary": "#e44d26",
+    "secondary": "#f06529"
+  },
+  "howToUse": "1. Write or paste code in the editor panels.\n2. View changes immediately in the live side preview panel.",
+  "features": "• Hot-reloading preview\n• Multi-panel layout"
+}
